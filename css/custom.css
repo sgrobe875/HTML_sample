@@ -1,0 +1,242 @@
+/*****     navigation     *****/
+
+nav ol{
+    padding-left: 0;
+}
+
+nav ol li{
+    display: inline-block;
+    list-style-type: none; 
+    padding: 0.5em 3em 0.5em 3em;
+    text-align: center;
+}
+
+nav ol li:nth-child(even){
+    background-color: white;
+}
+
+nav ol li:nth-child(odd){
+    background-color: lightblue;
+}
+
+.activePage {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
+
+/*****     home page     *****/
+
+#index img:not(.notArt) {
+    max-width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index figure:not(.notArt){
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+    color: gray;
+}
+
+
+/*****    gallery     *****/
+
+#gallery figure:not(.notArt) {
+    padding: 20px;
+    max-width: 475px;
+    margin: 20px auto;
+    text-align: center;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#gallery img {
+    max-width: 475px;
+}
+
+
+/*****     news     *****/
+
+#news img:not(.notArt) {
+    float:left;
+    max-height: 6em;
+    padding-right: 20px;
+}
+
+.date_posted {
+    font-style: italic;
+    color: gray;
+    font-size: 10pt;
+}
+
+.intro {
+    font-style: italic;
+}
+
+/*****     general     *****/
+
+html {
+    font: 14pt Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 80%;
+    padding-bottom: auto;
+    background-color: navy;
+}
+
+body {
+    background-color: #f8f8f8;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header img {
+    max-height: 6em;
+    float: left;
+    padding-right: 20px;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+}
+
+.indent {
+    text-indent: 25px;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/*****     form     *****/
+fieldset{
+    border: 2px solid #00498e;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+label {
+    color: #005cb3;
+    display: block;
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+input{
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px #EBEBEB;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    border: 1px solid #0C0;
+}
+
+input[type=submit]{
+    background: #005cb3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow:  1px 1px 4px #dadada;
+    color: #fff;
+    width: 100%
+}
+
+.buttons legend {
+    display: none;
+}
+
+.buttons{
+    text-align: center;
+    max-width: 100%;
+}
+
+.form-heading {
+    border-bottom: 2px solid #ddd;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+}
+
+.text-field {
+    width: 100%;
+}
+
+.mistake {
+    color: #fff;
+    background-color: #800;
+    border: thin solid #000;
+}
+
+#errors ol li{
+    color: #ff5555;
+}
+
+/*****     about us     *****/
+
+#aboutus figure:not(.notArt) {
+    text-align: center;
+    font-style: italic;
+    font-size: 12pt;
+    color: gray;
+    float: left;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+#aboutus img:not(.notArt) {
+    max-height: 450px;
+}
+
+#aboutus #first {
+    margin-top: 35px;
+}
+
+#aboutus p {
+    padding-right: 30px;
+}
+
+/*****     menu     *****/
+#menu ul li:not(.description) {
+    margin-top: 20px;
+}
+
+.description {
+    text-indent: 20px;
+    font-style: italic;
+    margin: 0;
+    list-style-type: none;
+}
+
+#menu article {
+    padding-left: 35px;
+}
+
+#menu figure:not(.notArt) {
+    float: right;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+#menu img:not(.notArt) {
+    max-width: 350px;
+}
+
+td {
+    border: 1px solid black;
+}
